@@ -1,0 +1,62 @@
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif; /* Lettertype voor de pagina */
+    margin: 0; /* Geen marges */
+    padding: 0; /* Geen opvulling */
+    background-color: #f4f4f4; /* Achtergrondkleur van de pagina */
+}
+
+header {
+    background-color: #4CAF50; /* Achtergrondkleur van de header */
+    color: white; /* Tekstkleur in de header */
+    text-align: center; /* Centreren van tekst */
+    padding: 20px; /* Opvulling rond de header */
+}
+
+footer {
+    background-color: #333; /* Achtergrondkleur van de footer */
+    color: white; /* Tekstkleur in de footer */
+    text-align: center; /* Centreren van tekst */
+    padding: 10px; /* Opvulling rond de footer */
+    position: relative; /* Zorg ervoor dat de footer onderaan komt na inhoud */
+    width: 100%; /* Volledige breedte */
+}
+
+table {
+    width: 100%; /* Tabelbreedte */
+    border-collapse: collapse; /* Randen samenvoegen */
+    margin: 20px auto; /* Marges rondom de tabel */
+}
+
+table td {
+    padding: 20px; /* Opvulling binnen de cellen */
+    text-align: center; /* Centreren van tekst in cellen */
+    border: 1px solid #ddd; /* Rand van de cellen */
+}
+
+/* Specifieke achtergrondkleuren voor cellen */
+#cel-1 { background-color: #ffcccc; }
+#cel-2 { background-color: #ccffcc; }
+#cel-3 { background-color: #ccccff; }
+#cel-4 { background-color: #ffccff; }
+
+#cel-5 { background-color: #ffcc99; }
+#cel-6 { background-color: #99ccff; }
+#cel-7 { background-color: #cc99ff; }
+#cel-8 { background-color: #99ffcc; }
+
+#cel-9 { background-color: #ff9966; }
+#cel-10 { background-color: #6699ff; }
+#cel-11 { background-color: #9966ff; }
+#cel-12 { background-color: #66ff99; }
+
+#cel-13 { background-color: #ff6600; }
+#cel-14 { background-color: #0066ff; }
+#cel-15 { background-color: #6600ff; }
+#cel-16 { background-color: #00ff66; }
+
+/* Standaard opmaak voor afbeeldingen in tabel */
+table img {
+    max-width: 100px; /* Maximale breedte van afbeeldingen */
+    height: auto; /* Automatische hoogte */
+}
